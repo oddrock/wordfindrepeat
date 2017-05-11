@@ -7,6 +7,7 @@ package com.ustcinfo.wordfindrepeat;
 public class SimFeatureUtil {
     private static int min(int one, int two, int three) {
         int min = one;
+        // 修改了一个bug
         if (two < min) {
             min = two;
         }
