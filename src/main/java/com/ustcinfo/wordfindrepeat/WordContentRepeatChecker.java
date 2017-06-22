@@ -27,8 +27,8 @@ public class WordContentRepeatChecker {
 	public static void main(String[] args) throws Exception {
 		/*-- 读取文件，分割为句子 --*/
 		System.out.println("正在导入文件...");
-		String file1Path = "c:\\技术部分-上海才扬.docx";
-		String file2Path = "c:\\技术部分-信通+盛世.docx";
+		String file1Path = "c:\\a00.docx";
+		String file2Path = "c:\\a11.docx";
 		String currentDirPath = new File("").getAbsolutePath();
 		// 输出目录
 		String exportDirPath = currentDirPath;
